@@ -9,6 +9,8 @@ expression5 = 17//3
 expression6 = 17%3
 # calculate powers
 expression7 = 2 ** 3
+
+expression8 = 4 * 4.75 -1
 print(expression1)
 print(expression2)
 print(expression3)
@@ -18,6 +20,7 @@ print(expression6)
 print(expression7)
 print(type(expression4))
 print(type(expression2))
+print(type(expression8))
 
 
 
