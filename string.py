@@ -20,3 +20,30 @@ print(string5)
 
 print('C:\some\name')
 print(r'C:\some\name')
+
+print('''
+Hello,
+how are you ? 
+''')
+print('''\
+Hello,
+how are you ? 
+''')
+
+print(3 * 'un' + 'red')
+
+print('Py' 'Thon')
+
+word = 'Python'
+print(word[1])
+
+print(word[-1])
+
+print(word[0:2])
+
+print(word[:2])
+
+print('J' + word[1:])
+
+# function len reuturn length of string
+print(len(word))
