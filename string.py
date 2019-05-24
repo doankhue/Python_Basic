@@ -45,5 +45,19 @@ print(word[:2])
 
 print('J' + word[1:])
 
-# function len reuturn length of string
+# function len return length of string
 print(len(word))
+
+name = 'doankhue%s %s'
+
+result = name%('@gmail.com','email')
+
+strNum = 'Number is %.2f' %(3.9293)
+
+print(result)
+
+print(strNum)
+
+number = 1
+variableInStr = f'Number is {number}'
+print(variableInStr)

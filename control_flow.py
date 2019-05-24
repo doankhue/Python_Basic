@@ -21,3 +21,32 @@ for w in words[:]:
         words.insert(0,w)
 print(words[:])
 
+
+#range function
+
+for i in range(5):
+    print(i)
+
+a = ['Mary','had','a','little','lamb']
+for i in range(len(a)):
+    print(i,a[i])
+
+print(list(range(2,3)))
+
+for n in range(2,10):
+    for x in range(2,n):
+        if n % x ==0 :
+            print(n,'equals',x,'*',n)
+            break
+    else:
+        print(n,'is a prime number')
+
+for num in range(2,10):
+    if num % 2 == 0:
+        print("Found an even number",num)
+        continue
+    print("Found a number",num)
+
+
+
+
