@@ -61,3 +61,9 @@ print(strNum)
 number = 1
 variableInStr = f'Number is {number}'
 print(variableInStr)
+
+
+#format function 
+
+r = '{:-^11}'.format('Hello')
+print(r)
